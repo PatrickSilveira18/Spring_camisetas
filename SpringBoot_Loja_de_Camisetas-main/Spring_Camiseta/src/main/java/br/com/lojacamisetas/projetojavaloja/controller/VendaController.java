@@ -37,7 +37,7 @@ import lombok.extern.log4j.Log4j2;
 @RestController
 @Log4j2
 @RequiredArgsConstructor
-@CrossOrigin(origins = "https://angular-loja-de-camisetas.vercel.app/")
+@CrossOrigin(origins = "https://angular-loja-de-camisetas.vercel.app")
 @RequestMapping("/vendas") 
 public class VendaController {
 	private final DateUtil dateUtil;
