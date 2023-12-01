@@ -30,7 +30,6 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @Entity
 @Builder
-@Table(uniqueConstraints={@UniqueConstraint(columnNames={"cpf"})})
 public class Cliente {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
