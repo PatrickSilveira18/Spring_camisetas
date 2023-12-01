@@ -33,7 +33,7 @@ import javax.validation.Valid;
 @RestController
 @Log4j2
 @RequiredArgsConstructor
-@CrossOrigin(origins = "https://angular-loja-de-camisetas.vercel.app/")
+@CrossOrigin(origins = "https://angular-loja-de-camisetas.vercel.app")
 @RequestMapping("/camisetas")
 public class CamisetaController {
 	private final DateUtil dateUtil;
